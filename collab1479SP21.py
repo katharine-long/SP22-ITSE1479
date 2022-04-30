@@ -31,7 +31,7 @@ def main():
     jumpTable['4'] = stub                 # Balderas - call to function goes here
     jumpTable['5'] = stub                 # Butler - call to function goes here
     jumpTable['6'] = stub                 # Kennedy - call to function goes here
-    jumpTable['7'] = stub                 # Long - call to function goes here
+    jumpTable['7'] = longFunction         # Long - call to function goes here
     jumpTable['8'] = stub                 # Nguyen - call to function goes here
     jumpTable['9'] = stub                 # Overby - call to function goes here
     jumpTable['10'] = stub                # Robarge - call to function goes here
@@ -157,6 +157,33 @@ def smileyFib(numberOfTimes):
 
     print()
     print()
+    
+    
+def longFunction():
+    print("Katharine Long")
+    num1 = 1952.5842
+    num2 = 1456.9251
+    print(int(num1))
+    print(int(num2))
+    print(num1)
+    print(num2)
+    add = num1 + num2
+    print("The sum is:", add)
+    minus = num1 - num2
+    print("The difference is:", minus)
+    times = num1 * num2
+    print("The product is:", times)
+    divide = num1 / num2
+    print("The dividend is:", divide)
+    square = num1 ** 2
+    print("The first number squared:", square)
+    cube = num2 ** 3
+    print("The second number cubed:", cube)
+    divInt = num1 // num2
+    print("The dividend using integers is:", divInt)
+    mod = num1 % num2
+    print("The remainder is:", mod)
+    print("End of Program")
 
 #*****************************************************************
 # Please leave me alone,
